@@ -1,0 +1,109 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-10-10T10:23:41.754Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Shahid Wedding",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$x1uBdxz0ZSSSiNCCq7K3Zb$0eHxqg/FaCca4fvDBOqhF+WeFWK2XcLwoUKMNI53iwg=",
+    "last_login": "2026-10-10T10:20:19.035Z",
+    "is_superuser": true,
+    "username": "shahidattar",
+    "first_name": "",
+    "last_name": "",
+    "email": "shahidattar737@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-10T10:07:41.923Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xe08yu0rg325yqxqumtcjs2btln1tvfr",
+  "fields": {
+    "session_data": ".eJxVjEsOgkAQBe_SazNhwPmxdM8ZSE_3G0ENJHxWxrsbEha6rarUm3ret6HfVyz9qNSSpcsvyyxPTIfQB0_32cg8bcuYzZGY066mmxWv29n-DQZeB2qJLSd4QFIMLFfUBS6lytUcuImMZCEVtEhpYFVDUEmMnL3zJbqG6fMFHOQ5lg:1xFUBf:lawhq-haqjqRKll7jY4uZ578SqvRihsFLACMW2jeR-g",
+    "expire_date": "2026-10-24T10:20:19.152Z"
+  }
+},
+{
+  "model": "planner.client",
+  "pk": 1,
+  "fields": {
+    "name": "rahul patil",
+    "phone": "9876543210",
+    "email": "rahul@gmail.com",
+    "address": "kagal",
+    "requirements": "Wedding Event Planning",
+    "created_at": "2026-10-13T05:15:52.666Z"
+  }
+},
+{
+  "model": "planner.event",
+  "pk": 1,
+  "fields": {
+    "name": "shahid s wedding party",
+    "event_type": "Wedding",
+    "client_name": "rahul patil",
+    "event_date": "2026-10-18",
+    "venue": "Kagal",
+    "budget": "250000.00",
+    "status": "Planning",
+    "created_at": "2026-10-10T10:23:41.725Z"
+  }
+},
+{
+  "model": "planner.event",
+  "pk": 3,
+  "fields": {
+    "name": "rahul patil",
+    "event_type": "Wedding",
+    "client_name": "rahul patil",
+    "event_date": "2026-10-22",
+    "venue": "Kagal",
+    "budget": "25000.00",
+    "status": "Planning",
+    "created_at": "2026-10-13T05:17:11.523Z"
+  }
+},
+{
+  "model": "planner.event",
+  "pk": 5,
+  "fields": {
+    "name": "Test Birthday Party",
+    "event_type": "Birthday",
+    "client_name": "rahul patil",
+    "event_date": "2026-10-22",
+    "venue": "Kagal",
+    "budget": "25000.00",
+    "status": "Planning",
+    "created_at": "2026-10-13T05:28:49.267Z"
+  }
+},
+{
+  "model": "planner.event",
+  "pk": 7,
+  "fields": {
+    "name": "Birthday Party 2026",
+    "event_type": "Birthday",
+    "client_name": "Shahid Attar",
+    "event_date": "2026-11-20",
+    "venue": "Kagal",
+    "budget": "15000.00",
+    "status": "Completed",
+    "created_at": "2026-10-13T05:46:30.658Z"
+  }
+}
+]
